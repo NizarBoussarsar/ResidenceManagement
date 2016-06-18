@@ -1,0 +1,2 @@
+C:\Users\Nizar\documents\visual studio 2013\Projects\FirstExamenASP\FirstExamenASP.Test\Fakes\FirstExamenASP.Service.fakes : warning : Cannot generate shim for FirstExamenASP.Service.IMyService: type is an interface.
+C:\Users\Nizar\documents\visual studio 2013\Projects\FirstExamenASP\FirstExamenASP.Test\Fakes\FirstExamenASP.Service.fakes : warning : Cannot generate shim for FirstExamenASP.Service.ServiceToTest+<>c__DisplayClass0: type is not supported because of internal limitations.

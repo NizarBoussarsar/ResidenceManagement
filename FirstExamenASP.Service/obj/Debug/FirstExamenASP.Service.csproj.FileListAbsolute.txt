@@ -1,0 +1,11 @@
+C:\Users\Nizar\Documents\Visual Studio 2013\Projects\FirstExamenASP\FirstExamenASP.Service\bin\Debug\FirstExamenASP.Service.dll
+C:\Users\Nizar\Documents\Visual Studio 2013\Projects\FirstExamenASP\FirstExamenASP.Service\bin\Debug\FirstExamenASP.Service.pdb
+C:\Users\Nizar\Documents\Visual Studio 2013\Projects\FirstExamenASP\FirstExamenASP.Service\bin\Debug\FirstExamenASP.Data.dll
+C:\Users\Nizar\Documents\Visual Studio 2013\Projects\FirstExamenASP\FirstExamenASP.Service\bin\Debug\FirstExamenASP.Domain.dll
+C:\Users\Nizar\Documents\Visual Studio 2013\Projects\FirstExamenASP\FirstExamenASP.Service\bin\Debug\EntityFramework.dll
+C:\Users\Nizar\Documents\Visual Studio 2013\Projects\FirstExamenASP\FirstExamenASP.Service\bin\Debug\FirstExamenASP.Data.pdb
+C:\Users\Nizar\Documents\Visual Studio 2013\Projects\FirstExamenASP\FirstExamenASP.Service\bin\Debug\FirstExamenASP.Domain.pdb
+C:\Users\Nizar\Documents\Visual Studio 2013\Projects\FirstExamenASP\FirstExamenASP.Service\bin\Debug\EntityFramework.xml
+C:\Users\Nizar\Documents\Visual Studio 2013\Projects\FirstExamenASP\FirstExamenASP.Service\obj\Debug\FirstExamenASP.Service.csprojResolveAssemblyReference.cache
+C:\Users\Nizar\Documents\Visual Studio 2013\Projects\FirstExamenASP\FirstExamenASP.Service\obj\Debug\FirstExamenASP.Service.dll
+C:\Users\Nizar\Documents\Visual Studio 2013\Projects\FirstExamenASP\FirstExamenASP.Service\obj\Debug\FirstExamenASP.Service.pdb

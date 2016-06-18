@@ -1,0 +1,17 @@
+C:\Users\Nizar\documents\visual studio 2013\Projects\FirstExamenASP\FirstExamenASP.Test\obj\Debug\Fakes\feaspd\b\FirstExamenASP.Data.Fakes.xml
+C:\Users\Nizar\documents\visual studio 2013\Projects\FirstExamenASP\FirstExamenASP.Test\obj\Debug\Fakes\feaspd\b\FirstExamenASP.Data.Fakes.dll
+C:\Users\Nizar\documents\visual studio 2013\Projects\FirstExamenASP\FirstExamenASP.Test\obj\Debug\Fakes\feaspd\b\FirstExamenASP.Data.Fakes.pdb
+C:\Users\Nizar\documents\visual studio 2013\Projects\FirstExamenASP\FirstExamenASP.Test\obj\Debug\Fakes\feaspd\b\EntityFramework.dll
+C:\Users\Nizar\documents\visual studio 2013\Projects\FirstExamenASP\FirstExamenASP.Test\obj\Debug\Fakes\feaspd\b\EntityFramework.SqlServer.dll
+C:\Users\Nizar\documents\visual studio 2013\Projects\FirstExamenASP\FirstExamenASP.Test\obj\Debug\Fakes\feaspd\b\FirstExamenASP.Data.dll
+C:\Users\Nizar\documents\visual studio 2013\Projects\FirstExamenASP\FirstExamenASP.Test\obj\Debug\Fakes\feaspd\b\FirstExamenASP.Domain.dll
+C:\Users\Nizar\documents\visual studio 2013\Projects\FirstExamenASP\FirstExamenASP.Test\obj\Debug\Fakes\feaspd\b\FirstExamenASP.Service.dll
+C:\Users\Nizar\documents\visual studio 2013\Projects\FirstExamenASP\FirstExamenASP.Test\obj\Debug\Fakes\feaspd\b\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\Nizar\documents\visual studio 2013\Projects\FirstExamenASP\FirstExamenASP.Test\obj\Debug\Fakes\feaspd\b\FirstExamenASP.Data.pdb
+C:\Users\Nizar\documents\visual studio 2013\Projects\FirstExamenASP\FirstExamenASP.Test\obj\Debug\Fakes\feaspd\b\EntityFramework.xml
+C:\Users\Nizar\documents\visual studio 2013\Projects\FirstExamenASP\FirstExamenASP.Test\obj\Debug\Fakes\feaspd\b\FirstExamenASP.Domain.pdb
+C:\Users\Nizar\documents\visual studio 2013\Projects\FirstExamenASP\FirstExamenASP.Test\obj\Debug\Fakes\feaspd\b\EntityFramework.SqlServer.xml
+C:\Users\Nizar\documents\visual studio 2013\Projects\FirstExamenASP\FirstExamenASP.Test\obj\Debug\Fakes\feaspd\b\FirstExamenASP.Service.pdb
+C:\Users\Nizar\documents\visual studio 2013\Projects\FirstExamenASP\FirstExamenASP.Test\obj\Debug\Fakes\feaspd\o\f.csprojResolveAssemblyReference.cache
+C:\Users\Nizar\documents\visual studio 2013\Projects\FirstExamenASP\FirstExamenASP.Test\obj\Debug\Fakes\feaspd\o\FirstExamenASP.Data.Fakes.dll
+C:\Users\Nizar\documents\visual studio 2013\Projects\FirstExamenASP\FirstExamenASP.Test\obj\Debug\Fakes\feaspd\o\FirstExamenASP.Data.Fakes.pdb

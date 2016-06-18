@@ -1,0 +1,1148 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FirstExamenASP.Data.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:FirstExamenASP.Data.Fakes.ShimFirstExamenASPDB">
+            <summary>Shim type of FirstExamenASP.Data.FirstExamenASPDB</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Fakes.ShimFirstExamenASPDB.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Fakes.ShimFirstExamenASPDB.#ctor(FirstExamenASP.Data.FirstExamenASPDB)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Fakes.ShimFirstExamenASPDB.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Fakes.ShimFirstExamenASPDB.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Fakes.ShimFirstExamenASPDB.Bind(System.Data.Entity.Infrastructure.IObjectContextAdapter)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Fakes.ShimFirstExamenASPDB.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Fakes.ShimFirstExamenASPDB.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Fakes.ShimFirstExamenASPDB.Constructor">
+            <summary>Sets the shim of FirstExamenASPDB.FirstExamenASPDB()</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Fakes.ShimFirstExamenASPDB.DomicileGet">
+            <summary>Sets the shim of FirstExamenASPDB.get_Domicile()</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Fakes.ShimFirstExamenASPDB.DomicileSetDbSetOfDomicile">
+            <summary>Sets the shim of FirstExamenASPDB.set_Domicile(DbSet`1&lt;Domicile&gt; value)</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Fakes.ShimFirstExamenASPDB.EntrepreneurGet">
+            <summary>Sets the shim of FirstExamenASPDB.get_Entrepreneur()</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Fakes.ShimFirstExamenASPDB.EntrepreneurSetDbSetOfEntrepreneur">
+            <summary>Sets the shim of FirstExamenASPDB.set_Entrepreneur(DbSet`1&lt;Entrepreneur&gt; value)</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Fakes.ShimFirstExamenASPDB.OnModelCreatingDbModelBuilder">
+            <summary>Sets the shim of FirstExamenASPDB.OnModelCreating(DbModelBuilder modelBuilder)</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Fakes.ShimFirstExamenASPDB.ResidenceGet">
+            <summary>Sets the shim of FirstExamenASPDB.get_Residence()</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Fakes.ShimFirstExamenASPDB.ResidenceSetDbSetOfResidence">
+            <summary>Sets the shim of FirstExamenASPDB.set_Residence(DbSet`1&lt;Residence&gt; value)</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Fakes.ShimFirstExamenASPDB._OnModelCreatingb__0EntityMappingConfigurationOfVilla">
+            <summary>Sets the shim of FirstExamenASPDB.&lt;OnModelCreating&gt;b__0(EntityMappingConfiguration`1&lt;Villa&gt; d)</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Fakes.ShimFirstExamenASPDB._OnModelCreatingb__1EntityMappingConfigurationOfAppartement">
+            <summary>Sets the shim of FirstExamenASPDB.&lt;OnModelCreating&gt;b__1(EntityMappingConfiguration`1&lt;Appartement&gt; d)</summary>
+        </member>
+        <member name="T:FirstExamenASP.Data.Fakes.ShimFirstExamenASPDB.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Fakes.ShimFirstExamenASPDB.AllInstances.DomicileGet">
+            <summary>Sets the shim of FirstExamenASPDB.get_Domicile()</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Fakes.ShimFirstExamenASPDB.AllInstances.DomicileSetDbSetOfDomicile">
+            <summary>Sets the shim of FirstExamenASPDB.set_Domicile(DbSet`1&lt;Domicile&gt; value)</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Fakes.ShimFirstExamenASPDB.AllInstances.EntrepreneurGet">
+            <summary>Sets the shim of FirstExamenASPDB.get_Entrepreneur()</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Fakes.ShimFirstExamenASPDB.AllInstances.EntrepreneurSetDbSetOfEntrepreneur">
+            <summary>Sets the shim of FirstExamenASPDB.set_Entrepreneur(DbSet`1&lt;Entrepreneur&gt; value)</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Fakes.ShimFirstExamenASPDB.AllInstances.OnModelCreatingDbModelBuilder">
+            <summary>Sets the shim of FirstExamenASPDB.OnModelCreating(DbModelBuilder modelBuilder)</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Fakes.ShimFirstExamenASPDB.AllInstances.ResidenceGet">
+            <summary>Sets the shim of FirstExamenASPDB.get_Residence()</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Fakes.ShimFirstExamenASPDB.AllInstances.ResidenceSetDbSetOfResidence">
+            <summary>Sets the shim of FirstExamenASPDB.set_Residence(DbSet`1&lt;Residence&gt; value)</summary>
+        </member>
+        <member name="T:FirstExamenASP.Data.Fakes.StubFirstExamenASPDB">
+            <summary>Stub type of FirstExamenASP.Data.FirstExamenASPDB</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Fakes.StubFirstExamenASPDB.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Fakes.StubFirstExamenASPDB.AttachBackingFieldToDomicile">
+            <summary>Attaches delegates to emulate StubFirstExamenASPDB.Domicile as a property with a backing field.</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Fakes.StubFirstExamenASPDB.AttachBackingFieldToEntrepreneur">
+            <summary>Attaches delegates to emulate StubFirstExamenASPDB.Entrepreneur as a property with a backing field.</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Fakes.StubFirstExamenASPDB.AttachBackingFieldToResidence">
+            <summary>Attaches delegates to emulate StubFirstExamenASPDB.Residence as a property with a backing field.</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Fakes.StubFirstExamenASPDB.Dispose(System.Boolean)">
+            <summary>Sets the stub of DbContext.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Fakes.StubFirstExamenASPDB.DisposeBoolean">
+            <summary>Sets the stub of DbContext.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Fakes.StubFirstExamenASPDB.DomicileGet">
+            <summary>Sets the stub of FirstExamenASPDB.get_Domicile()</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Fakes.StubFirstExamenASPDB.DomicileSetDbSetOfDomicile">
+            <summary>Sets the stub of FirstExamenASPDB.set_Domicile(DbSet`1&lt;Domicile&gt; value)</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Fakes.StubFirstExamenASPDB.EntrepreneurGet">
+            <summary>Sets the stub of FirstExamenASPDB.get_Entrepreneur()</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Fakes.StubFirstExamenASPDB.EntrepreneurSetDbSetOfEntrepreneur">
+            <summary>Sets the stub of FirstExamenASPDB.set_Entrepreneur(DbSet`1&lt;Entrepreneur&gt; value)</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Fakes.StubFirstExamenASPDB.Equals(System.Object)">
+            <summary>Sets the stub of DbContext.Equals(Object obj)</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Fakes.StubFirstExamenASPDB.EqualsObject">
+            <summary>Sets the stub of DbContext.Equals(Object obj)</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Fakes.StubFirstExamenASPDB.GetHashCode">
+            <summary>Sets the stub of DbContext.GetHashCode()</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Fakes.StubFirstExamenASPDB.GetHashCode01">
+            <summary>Sets the stub of DbContext.GetHashCode()</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Fakes.StubFirstExamenASPDB.InitializeStub">
+            <summary>Initializes a new instance of type StubFirstExamenASPDB</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Fakes.StubFirstExamenASPDB.OnModelCreating(System.Data.Entity.DbModelBuilder)">
+            <summary>Sets the stub of FirstExamenASPDB.OnModelCreating(DbModelBuilder modelBuilder)</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Fakes.StubFirstExamenASPDB.OnModelCreatingDbModelBuilder">
+            <summary>Sets the stub of FirstExamenASPDB.OnModelCreating(DbModelBuilder modelBuilder)</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Fakes.StubFirstExamenASPDB.ResidenceGet">
+            <summary>Sets the stub of FirstExamenASPDB.get_Residence()</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Fakes.StubFirstExamenASPDB.ResidenceSetDbSetOfResidence">
+            <summary>Sets the stub of FirstExamenASPDB.set_Residence(DbSet`1&lt;Residence&gt; value)</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Fakes.StubFirstExamenASPDB.SaveChanges">
+            <summary>Sets the stub of DbContext.SaveChanges()</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Fakes.StubFirstExamenASPDB.SaveChanges01">
+            <summary>Sets the stub of DbContext.SaveChanges()</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Fakes.StubFirstExamenASPDB.SaveChangesAsync">
+            <summary>Sets the stub of DbContext.SaveChangesAsync()</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Fakes.StubFirstExamenASPDB.SaveChangesAsync(System.Threading.CancellationToken)">
+            <summary>Sets the stub of DbContext.SaveChangesAsync(CancellationToken cancellationToken)</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Fakes.StubFirstExamenASPDB.SaveChangesAsync01">
+            <summary>Sets the stub of DbContext.SaveChangesAsync()</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Fakes.StubFirstExamenASPDB.SaveChangesAsyncCancellationToken">
+            <summary>Sets the stub of DbContext.SaveChangesAsync(CancellationToken cancellationToken)</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Fakes.StubFirstExamenASPDB.Set(System.Type)">
+            <summary>Sets the stub of DbContext.Set(Type entityType)</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Fakes.StubFirstExamenASPDB.Set``1">
+            <summary>Sets the stub of DbContext.Set()</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Fakes.StubFirstExamenASPDB.SetOf1``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Data.Entity.DbSet{``0}})">
+            <summary>Sets stubs of Set()</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Fakes.StubFirstExamenASPDB.SetType">
+            <summary>Sets the stub of DbContext.Set(Type entityType)</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Fakes.StubFirstExamenASPDB.ShouldValidateEntity(System.Data.Entity.Infrastructure.DbEntityEntry)">
+            <summary>Sets the stub of DbContext.ShouldValidateEntity(DbEntityEntry entityEntry)</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Fakes.StubFirstExamenASPDB.ShouldValidateEntityDbEntityEntry">
+            <summary>Sets the stub of DbContext.ShouldValidateEntity(DbEntityEntry entityEntry)</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Fakes.StubFirstExamenASPDB.ToString">
+            <summary>Sets the stub of DbContext.ToString()</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Fakes.StubFirstExamenASPDB.ToString01">
+            <summary>Sets the stub of DbContext.ToString()</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Fakes.StubFirstExamenASPDB.ValidateEntity(System.Data.Entity.Infrastructure.DbEntityEntry,System.Collections.Generic.IDictionary{System.Object,System.Object})">
+            <summary>Sets the stub of DbContext.ValidateEntity(DbEntityEntry entityEntry, IDictionary`2&lt;Object,Object&gt; items)</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Fakes.StubFirstExamenASPDB.ValidateEntityDbEntityEntryIDictionaryOfObjectObject">
+            <summary>Sets the stub of DbContext.ValidateEntity(DbEntityEntry entityEntry, IDictionary`2&lt;Object,Object&gt; items)</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Fakes.StubFirstExamenASPDB.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Fakes.StubFirstExamenASPDB.Domicile">
+            <summary>Sets the stub of FirstExamenASPDB.get_Domicile()</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Fakes.StubFirstExamenASPDB.Entrepreneur">
+            <summary>Sets the stub of FirstExamenASPDB.get_Entrepreneur()</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Fakes.StubFirstExamenASPDB.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Fakes.StubFirstExamenASPDB.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Fakes.StubFirstExamenASPDB.Residence">
+            <summary>Sets the stub of FirstExamenASPDB.get_Residence()</summary>
+        </member>
+        <member name="T:FirstExamenASP.Data.Infrastructure.Fakes.ShimDatabaseFactory">
+            <summary>Shim type of FirstExamenASP.Data.Infrastructure.DatabaseFactory</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Infrastructure.Fakes.ShimDatabaseFactory.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Infrastructure.Fakes.ShimDatabaseFactory.#ctor(FirstExamenASP.Data.Infrastructure.DatabaseFactory)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Infrastructure.Fakes.ShimDatabaseFactory.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Infrastructure.Fakes.ShimDatabaseFactory.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Infrastructure.Fakes.ShimDatabaseFactory.Bind(FirstExamenASP.Data.Infrastructure.IDatabaseFactory)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Infrastructure.Fakes.ShimDatabaseFactory.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Infrastructure.Fakes.ShimDatabaseFactory.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Infrastructure.Fakes.ShimDatabaseFactory.Constructor">
+            <summary>Sets the shim of DatabaseFactory.DatabaseFactory()</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Infrastructure.Fakes.ShimDatabaseFactory.DisposeCore">
+            <summary>Sets the shim of DatabaseFactory.DisposeCore()</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Infrastructure.Fakes.ShimDatabaseFactory.Get">
+            <summary>Sets the shim of DatabaseFactory.Get()</summary>
+        </member>
+        <member name="T:FirstExamenASP.Data.Infrastructure.Fakes.ShimDatabaseFactory.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Infrastructure.Fakes.ShimDatabaseFactory.AllInstances.DisposeCore">
+            <summary>Sets the shim of DatabaseFactory.DisposeCore()</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Infrastructure.Fakes.ShimDatabaseFactory.AllInstances.Get">
+            <summary>Sets the shim of DatabaseFactory.Get()</summary>
+        </member>
+        <member name="T:FirstExamenASP.Data.Infrastructure.Fakes.ShimDisposable">
+            <summary>Shim type of FirstExamenASP.Data.Infrastructure.Disposable</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Infrastructure.Fakes.ShimDisposable.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Infrastructure.Fakes.ShimDisposable.#ctor(FirstExamenASP.Data.Infrastructure.Disposable)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Infrastructure.Fakes.ShimDisposable.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Infrastructure.Fakes.ShimDisposable.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Infrastructure.Fakes.ShimDisposable.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Infrastructure.Fakes.ShimDisposable.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Infrastructure.Fakes.ShimDisposable.Constructor">
+            <summary>Sets the shim of Disposable.Disposable()</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Infrastructure.Fakes.ShimDisposable.Dispose">
+            <summary>Sets the shim of Disposable.Dispose()</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Infrastructure.Fakes.ShimDisposable.DisposeBoolean">
+            <summary>Sets the shim of Disposable.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Infrastructure.Fakes.ShimDisposable.DisposeCore">
+            <summary>Sets the shim of Disposable.DisposeCore()</summary>
+        </member>
+        <member name="T:FirstExamenASP.Data.Infrastructure.Fakes.ShimDisposable.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Infrastructure.Fakes.ShimDisposable.AllInstances.Dispose">
+            <summary>Sets the shim of Disposable.Dispose()</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Infrastructure.Fakes.ShimDisposable.AllInstances.DisposeBoolean">
+            <summary>Sets the shim of Disposable.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Infrastructure.Fakes.ShimDisposable.AllInstances.DisposeCore">
+            <summary>Sets the shim of Disposable.DisposeCore()</summary>
+        </member>
+        <member name="T:FirstExamenASP.Data.Infrastructure.Fakes.ShimRepositoryBase`1">
+            <summary>Shim type of FirstExamenASP.Data.Infrastructure.RepositoryBase`1</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Infrastructure.Fakes.ShimRepositoryBase`1.#ctor(FirstExamenASP.Data.Infrastructure.RepositoryBase{`0})">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Infrastructure.Fakes.ShimRepositoryBase`1.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Infrastructure.Fakes.ShimRepositoryBase`1.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Infrastructure.Fakes.ShimRepositoryBase`1.Bind(FirstExamenASP.Data.Infrastructure.IRepository{`0})">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Infrastructure.Fakes.ShimRepositoryBase`1.AddT0">
+            <summary>Sets the shim of RepositoryBase`1.Add(!0 entity)</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Infrastructure.Fakes.ShimRepositoryBase`1.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Infrastructure.Fakes.ShimRepositoryBase`1.ConstructorDatabaseFactory">
+            <summary>Sets the shim of RepositoryBase`1.RepositoryBase`1(DatabaseFactory dbFactory)</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Infrastructure.Fakes.ShimRepositoryBase`1.DataContextGet">
+            <summary>Sets the shim of RepositoryBase`1.get_DataContext()</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Infrastructure.Fakes.ShimRepositoryBase`1.DeleteExpressionOfFuncOfT0Boolean">
+            <summary>Sets the shim of RepositoryBase`1.Delete(Expression`1&lt;Func`2&lt;!0,Boolean&gt;&gt; where)</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Infrastructure.Fakes.ShimRepositoryBase`1.DeleteT0">
+            <summary>Sets the shim of RepositoryBase`1.Delete(!0 entity)</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Infrastructure.Fakes.ShimRepositoryBase`1.GetAll">
+            <summary>Sets the shim of RepositoryBase`1.GetAll()</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Infrastructure.Fakes.ShimRepositoryBase`1.GetByIdInt64">
+            <summary>Sets the shim of RepositoryBase`1.GetById(Int64 id)</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Infrastructure.Fakes.ShimRepositoryBase`1.GetByIdString">
+            <summary>Sets the shim of RepositoryBase`1.GetById(String id)</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Infrastructure.Fakes.ShimRepositoryBase`1.GetExpressionOfFuncOfT0Boolean">
+            <summary>Sets the shim of RepositoryBase`1.Get(Expression`1&lt;Func`2&lt;!0,Boolean&gt;&gt; where)</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Infrastructure.Fakes.ShimRepositoryBase`1.GetManyExpressionOfFuncOfT0Boolean">
+            <summary>Sets the shim of RepositoryBase`1.GetMany(Expression`1&lt;Func`2&lt;!0,Boolean&gt;&gt; where)</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Infrastructure.Fakes.ShimRepositoryBase`1.UpdateT0">
+            <summary>Sets the shim of RepositoryBase`1.Update(!0 entity)</summary>
+        </member>
+        <member name="T:FirstExamenASP.Data.Infrastructure.Fakes.ShimRepositoryBase`1.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Infrastructure.Fakes.ShimRepositoryBase`1.AllInstances.AddT0">
+            <summary>Sets the shim of RepositoryBase`1.Add(!0 entity)</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Infrastructure.Fakes.ShimRepositoryBase`1.AllInstances.DataContextGet">
+            <summary>Sets the shim of RepositoryBase`1.get_DataContext()</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Infrastructure.Fakes.ShimRepositoryBase`1.AllInstances.DeleteExpressionOfFuncOfT0Boolean">
+            <summary>Sets the shim of RepositoryBase`1.Delete(Expression`1&lt;Func`2&lt;!0,Boolean&gt;&gt; where)</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Infrastructure.Fakes.ShimRepositoryBase`1.AllInstances.DeleteT0">
+            <summary>Sets the shim of RepositoryBase`1.Delete(!0 entity)</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Infrastructure.Fakes.ShimRepositoryBase`1.AllInstances.GetAll">
+            <summary>Sets the shim of RepositoryBase`1.GetAll()</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Infrastructure.Fakes.ShimRepositoryBase`1.AllInstances.GetByIdInt64">
+            <summary>Sets the shim of RepositoryBase`1.GetById(Int64 id)</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Infrastructure.Fakes.ShimRepositoryBase`1.AllInstances.GetByIdString">
+            <summary>Sets the shim of RepositoryBase`1.GetById(String id)</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Infrastructure.Fakes.ShimRepositoryBase`1.AllInstances.GetExpressionOfFuncOfT0Boolean">
+            <summary>Sets the shim of RepositoryBase`1.Get(Expression`1&lt;Func`2&lt;!0,Boolean&gt;&gt; where)</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Infrastructure.Fakes.ShimRepositoryBase`1.AllInstances.GetManyExpressionOfFuncOfT0Boolean">
+            <summary>Sets the shim of RepositoryBase`1.GetMany(Expression`1&lt;Func`2&lt;!0,Boolean&gt;&gt; where)</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Infrastructure.Fakes.ShimRepositoryBase`1.AllInstances.UpdateT0">
+            <summary>Sets the shim of RepositoryBase`1.Update(!0 entity)</summary>
+        </member>
+        <member name="T:FirstExamenASP.Data.Infrastructure.Fakes.ShimUnitOfWork">
+            <summary>Shim type of FirstExamenASP.Data.Infrastructure.UnitOfWork</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Infrastructure.Fakes.ShimUnitOfWork.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Infrastructure.Fakes.ShimUnitOfWork.#ctor(FirstExamenASP.Data.Infrastructure.UnitOfWork)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Infrastructure.Fakes.ShimUnitOfWork.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Infrastructure.Fakes.ShimUnitOfWork.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Infrastructure.Fakes.ShimUnitOfWork.Bind(FirstExamenASP.Data.Infrastructure.IUnitOfWork)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Infrastructure.Fakes.ShimUnitOfWork.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Infrastructure.Fakes.ShimUnitOfWork.Commit">
+            <summary>Sets the shim of UnitOfWork.Commit()</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Infrastructure.Fakes.ShimUnitOfWork.ConstructorDatabaseFactory">
+            <summary>Sets the shim of UnitOfWork.UnitOfWork(DatabaseFactory dbFactory)</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Infrastructure.Fakes.ShimUnitOfWork.DataContextGet">
+            <summary>Sets the shim of UnitOfWork.get_DataContext()</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Infrastructure.Fakes.ShimUnitOfWork.DomicileRepositoryGet">
+            <summary>Sets the shim of UnitOfWork.get_DomicileRepository()</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Infrastructure.Fakes.ShimUnitOfWork.EntrepreneurRepositoryGet">
+            <summary>Sets the shim of UnitOfWork.get_EntrepreneurRepository()</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Infrastructure.Fakes.ShimUnitOfWork.ResidenceRepositoryGet">
+            <summary>Sets the shim of UnitOfWork.get_ResidenceRepository()</summary>
+        </member>
+        <member name="T:FirstExamenASP.Data.Infrastructure.Fakes.ShimUnitOfWork.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Infrastructure.Fakes.ShimUnitOfWork.AllInstances.Commit">
+            <summary>Sets the shim of UnitOfWork.Commit()</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Infrastructure.Fakes.ShimUnitOfWork.AllInstances.DataContextGet">
+            <summary>Sets the shim of UnitOfWork.get_DataContext()</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Infrastructure.Fakes.ShimUnitOfWork.AllInstances.DomicileRepositoryGet">
+            <summary>Sets the shim of UnitOfWork.get_DomicileRepository()</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Infrastructure.Fakes.ShimUnitOfWork.AllInstances.EntrepreneurRepositoryGet">
+            <summary>Sets the shim of UnitOfWork.get_EntrepreneurRepository()</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Infrastructure.Fakes.ShimUnitOfWork.AllInstances.ResidenceRepositoryGet">
+            <summary>Sets the shim of UnitOfWork.get_ResidenceRepository()</summary>
+        </member>
+        <member name="T:FirstExamenASP.Data.Infrastructure.Fakes.StubDatabaseFactory">
+            <summary>Stub type of FirstExamenASP.Data.Infrastructure.DatabaseFactory</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Infrastructure.Fakes.StubDatabaseFactory.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Infrastructure.Fakes.StubDatabaseFactory.DisposeCore">
+            <summary>Sets the stub of DatabaseFactory.DisposeCore()</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Infrastructure.Fakes.StubDatabaseFactory.DisposeCore01">
+            <summary>Sets the stub of DatabaseFactory.DisposeCore()</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Infrastructure.Fakes.StubDatabaseFactory.InitializeStub">
+            <summary>Initializes a new instance of type StubDatabaseFactory</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Infrastructure.Fakes.StubDatabaseFactory.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Infrastructure.Fakes.StubDatabaseFactory.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Infrastructure.Fakes.StubDatabaseFactory.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:FirstExamenASP.Data.Infrastructure.Fakes.StubDisposable">
+            <summary>Stub type of FirstExamenASP.Data.Infrastructure.Disposable</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Infrastructure.Fakes.StubDisposable.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Infrastructure.Fakes.StubDisposable.DisposeCore">
+            <summary>Sets the stub of Disposable.DisposeCore()</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Infrastructure.Fakes.StubDisposable.DisposeCore01">
+            <summary>Sets the stub of Disposable.DisposeCore()</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Infrastructure.Fakes.StubDisposable.InitializeStub">
+            <summary>Initializes a new instance of type StubDisposable</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Infrastructure.Fakes.StubDisposable.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Infrastructure.Fakes.StubDisposable.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Infrastructure.Fakes.StubDisposable.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:FirstExamenASP.Data.Infrastructure.Fakes.StubIDatabaseFactory">
+            <summary>Stub type of FirstExamenASP.Data.Infrastructure.IDatabaseFactory</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Infrastructure.Fakes.StubIDatabaseFactory.#ctor">
+            <summary>Initializes a new instance of type StubIDatabaseFactory</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Infrastructure.Fakes.StubIDatabaseFactory.Dispose">
+            <summary>Sets the stub of IDisposable.Dispose()</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Infrastructure.Fakes.StubIDatabaseFactory.feaspd::FirstExamenASP#Data#Infrastructure#IDatabaseFactory#Get">
+            <summary>Sets the stub of IDatabaseFactory.Get()</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Infrastructure.Fakes.StubIDatabaseFactory.Get">
+            <summary>Sets the stub of IDatabaseFactory.Get()</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Infrastructure.Fakes.StubIDatabaseFactory.global::System#IDisposable#Dispose">
+            <summary>Sets the stub of IDisposable.Dispose()</summary>
+        </member>
+        <member name="T:FirstExamenASP.Data.Infrastructure.Fakes.StubIRepository`1">
+            <summary>Stub type of FirstExamenASP.Data.Infrastructure.IRepository`1</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Infrastructure.Fakes.StubIRepository`1.#ctor">
+            <summary>Initializes a new instance of type StubIRepository</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Infrastructure.Fakes.StubIRepository`1.AddT0">
+            <summary>Sets the stub of IRepository`1.Add(!0 entity)</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Infrastructure.Fakes.StubIRepository`1.DeleteExpressionOfFuncOfT0Boolean">
+            <summary>Sets the stub of IRepository`1.Delete(Expression`1&lt;Func`2&lt;!0,Boolean&gt;&gt; where)</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Infrastructure.Fakes.StubIRepository`1.DeleteT0">
+            <summary>Sets the stub of IRepository`1.Delete(!0 entity)</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Infrastructure.Fakes.StubIRepository`1.feaspd::FirstExamenASP#Data#Infrastructure#IRepository{T}#Add(`0)">
+            <summary>Sets the stub of IRepository`1.Add(!0 entity)</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Infrastructure.Fakes.StubIRepository`1.feaspd::FirstExamenASP#Data#Infrastructure#IRepository{T}#Delete(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})">
+            <summary>Sets the stub of IRepository`1.Delete(Expression`1&lt;Func`2&lt;!0,Boolean&gt;&gt; where)</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Infrastructure.Fakes.StubIRepository`1.feaspd::FirstExamenASP#Data#Infrastructure#IRepository{T}#Delete(`0)">
+            <summary>Sets the stub of IRepository`1.Delete(!0 entity)</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Infrastructure.Fakes.StubIRepository`1.feaspd::FirstExamenASP#Data#Infrastructure#IRepository{T}#Get(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})">
+            <summary>Sets the stub of IRepository`1.Get(Expression`1&lt;Func`2&lt;!0,Boolean&gt;&gt; where)</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Infrastructure.Fakes.StubIRepository`1.feaspd::FirstExamenASP#Data#Infrastructure#IRepository{T}#GetAll">
+            <summary>Sets the stub of IRepository`1.GetAll()</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Infrastructure.Fakes.StubIRepository`1.feaspd::FirstExamenASP#Data#Infrastructure#IRepository{T}#GetById(System.String)">
+            <summary>Sets the stub of IRepository`1.GetById(String Id)</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Infrastructure.Fakes.StubIRepository`1.feaspd::FirstExamenASP#Data#Infrastructure#IRepository{T}#GetById(System.Int64)">
+            <summary>Sets the stub of IRepository`1.GetById(Int64 Id)</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Infrastructure.Fakes.StubIRepository`1.feaspd::FirstExamenASP#Data#Infrastructure#IRepository{T}#GetMany(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})">
+            <summary>Sets the stub of IRepository`1.GetMany(Expression`1&lt;Func`2&lt;!0,Boolean&gt;&gt; where)</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Infrastructure.Fakes.StubIRepository`1.feaspd::FirstExamenASP#Data#Infrastructure#IRepository{T}#Update(`0)">
+            <summary>Sets the stub of IRepository`1.Update(!0 entity)</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Infrastructure.Fakes.StubIRepository`1.GetAll">
+            <summary>Sets the stub of IRepository`1.GetAll()</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Infrastructure.Fakes.StubIRepository`1.GetByIdInt64">
+            <summary>Sets the stub of IRepository`1.GetById(Int64 Id)</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Infrastructure.Fakes.StubIRepository`1.GetByIdString">
+            <summary>Sets the stub of IRepository`1.GetById(String Id)</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Infrastructure.Fakes.StubIRepository`1.GetExpressionOfFuncOfT0Boolean">
+            <summary>Sets the stub of IRepository`1.Get(Expression`1&lt;Func`2&lt;!0,Boolean&gt;&gt; where)</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Infrastructure.Fakes.StubIRepository`1.GetManyExpressionOfFuncOfT0Boolean">
+            <summary>Sets the stub of IRepository`1.GetMany(Expression`1&lt;Func`2&lt;!0,Boolean&gt;&gt; where)</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Infrastructure.Fakes.StubIRepository`1.UpdateT0">
+            <summary>Sets the stub of IRepository`1.Update(!0 entity)</summary>
+        </member>
+        <member name="T:FirstExamenASP.Data.Infrastructure.Fakes.StubIUnitOfWork">
+            <summary>Stub type of FirstExamenASP.Data.Infrastructure.IUnitOfWork</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Infrastructure.Fakes.StubIUnitOfWork.#ctor">
+            <summary>Initializes a new instance of type StubIUnitOfWork</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Infrastructure.Fakes.StubIUnitOfWork.Commit">
+            <summary>Sets the stub of IUnitOfWork.Commit()</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Infrastructure.Fakes.StubIUnitOfWork.DomicileRepositoryGet">
+            <summary>Sets the stub of IUnitOfWork.get_DomicileRepository()</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Infrastructure.Fakes.StubIUnitOfWork.EntrepreneurRepositoryGet">
+            <summary>Sets the stub of IUnitOfWork.get_EntrepreneurRepository()</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Infrastructure.Fakes.StubIUnitOfWork.feaspd::FirstExamenASP#Data#Infrastructure#IUnitOfWork#Commit">
+            <summary>Sets the stub of IUnitOfWork.Commit()</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Infrastructure.Fakes.StubIUnitOfWork.ResidenceRepositoryGet">
+            <summary>Sets the stub of IUnitOfWork.get_ResidenceRepository()</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Infrastructure.Fakes.StubIUnitOfWork.feaspd::FirstExamenASP#Data#Infrastructure#IUnitOfWork#DomicileRepository">
+            <summary>Sets the stub of IUnitOfWork.get_DomicileRepository()</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Infrastructure.Fakes.StubIUnitOfWork.feaspd::FirstExamenASP#Data#Infrastructure#IUnitOfWork#EntrepreneurRepository">
+            <summary>Sets the stub of IUnitOfWork.get_EntrepreneurRepository()</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Infrastructure.Fakes.StubIUnitOfWork.feaspd::FirstExamenASP#Data#Infrastructure#IUnitOfWork#ResidenceRepository">
+            <summary>Sets the stub of IUnitOfWork.get_ResidenceRepository()</summary>
+        </member>
+        <member name="T:FirstExamenASP.Data.Infrastructure.Fakes.StubRepositoryBase`1">
+            <summary>Stub type of FirstExamenASP.Data.Infrastructure.RepositoryBase`1</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Infrastructure.Fakes.StubRepositoryBase`1.#ctor(FirstExamenASP.Data.Infrastructure.DatabaseFactory)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Infrastructure.Fakes.StubRepositoryBase`1.Add(`0)">
+            <summary>Sets the stub of RepositoryBase`1.Add(!0 entity)</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Infrastructure.Fakes.StubRepositoryBase`1.AddT0">
+            <summary>Sets the stub of RepositoryBase`1.Add(!0 entity)</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Infrastructure.Fakes.StubRepositoryBase`1.Delete(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})">
+            <summary>Sets the stub of RepositoryBase`1.Delete(Expression`1&lt;Func`2&lt;!0,Boolean&gt;&gt; where)</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Infrastructure.Fakes.StubRepositoryBase`1.Delete(`0)">
+            <summary>Sets the stub of RepositoryBase`1.Delete(!0 entity)</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Infrastructure.Fakes.StubRepositoryBase`1.DeleteExpressionOfFuncOfT0Boolean">
+            <summary>Sets the stub of RepositoryBase`1.Delete(Expression`1&lt;Func`2&lt;!0,Boolean&gt;&gt; where)</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Infrastructure.Fakes.StubRepositoryBase`1.DeleteT0">
+            <summary>Sets the stub of RepositoryBase`1.Delete(!0 entity)</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Infrastructure.Fakes.StubRepositoryBase`1.GetAll">
+            <summary>Sets the stub of RepositoryBase`1.GetAll()</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Infrastructure.Fakes.StubRepositoryBase`1.GetAll01">
+            <summary>Sets the stub of RepositoryBase`1.GetAll()</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Infrastructure.Fakes.StubRepositoryBase`1.GetById(System.Int64)">
+            <summary>Sets the stub of RepositoryBase`1.GetById(Int64 id)</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Infrastructure.Fakes.StubRepositoryBase`1.GetById(System.String)">
+            <summary>Sets the stub of RepositoryBase`1.GetById(String id)</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Infrastructure.Fakes.StubRepositoryBase`1.GetByIdInt64">
+            <summary>Sets the stub of RepositoryBase`1.GetById(Int64 id)</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Infrastructure.Fakes.StubRepositoryBase`1.GetByIdString">
+            <summary>Sets the stub of RepositoryBase`1.GetById(String id)</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Infrastructure.Fakes.StubRepositoryBase`1.GetMany(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})">
+            <summary>Sets the stub of RepositoryBase`1.GetMany(Expression`1&lt;Func`2&lt;!0,Boolean&gt;&gt; where)</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Infrastructure.Fakes.StubRepositoryBase`1.GetManyExpressionOfFuncOfT0Boolean">
+            <summary>Sets the stub of RepositoryBase`1.GetMany(Expression`1&lt;Func`2&lt;!0,Boolean&gt;&gt; where)</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Infrastructure.Fakes.StubRepositoryBase`1.InitializeStub">
+            <summary>Initializes a new instance of type StubRepositoryBase</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Infrastructure.Fakes.StubRepositoryBase`1.Update(`0)">
+            <summary>Sets the stub of RepositoryBase`1.Update(!0 entity)</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Infrastructure.Fakes.StubRepositoryBase`1.UpdateT0">
+            <summary>Sets the stub of RepositoryBase`1.Update(!0 entity)</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Infrastructure.Fakes.StubRepositoryBase`1.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Infrastructure.Fakes.StubRepositoryBase`1.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Infrastructure.Fakes.StubRepositoryBase`1.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:FirstExamenASP.Data.Infrastructure.Fakes.StubUnitOfWork">
+            <summary>Stub type of FirstExamenASP.Data.Infrastructure.UnitOfWork</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Infrastructure.Fakes.StubUnitOfWork.#ctor(FirstExamenASP.Data.Infrastructure.DatabaseFactory)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Infrastructure.Fakes.StubUnitOfWork.InitializeStub">
+            <summary>Initializes a new instance of type StubUnitOfWork</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Infrastructure.Fakes.StubUnitOfWork.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Infrastructure.Fakes.StubUnitOfWork.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Infrastructure.Fakes.StubUnitOfWork.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:FirstExamenASP.Data.Repositories.Fakes.ShimDomicileRepository">
+            <summary>Shim type of FirstExamenASP.Data.Repositories.DomicileRepository</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Repositories.Fakes.ShimDomicileRepository.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Repositories.Fakes.ShimDomicileRepository.#ctor(FirstExamenASP.Data.Repositories.DomicileRepository)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Repositories.Fakes.ShimDomicileRepository.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Repositories.Fakes.ShimDomicileRepository.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Repositories.Fakes.ShimDomicileRepository.Bind(FirstExamenASP.Data.Infrastructure.IRepository{FirstExamenASP.Domain.Entities.Domicile})">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Repositories.Fakes.ShimDomicileRepository.Bind(FirstExamenASP.Data.Repositories.IDomicileRepository)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Repositories.Fakes.ShimDomicileRepository.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Repositories.Fakes.ShimDomicileRepository.ConstructorDatabaseFactory">
+            <summary>Sets the shim of DomicileRepository.DomicileRepository(DatabaseFactory dbFactory)</summary>
+        </member>
+        <member name="T:FirstExamenASP.Data.Repositories.Fakes.ShimDomicileRepository.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="T:FirstExamenASP.Data.Repositories.Fakes.ShimEntrepreneurRepository">
+            <summary>Shim type of FirstExamenASP.Data.Repositories.EntrepreneurRepository</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Repositories.Fakes.ShimEntrepreneurRepository.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Repositories.Fakes.ShimEntrepreneurRepository.#ctor(FirstExamenASP.Data.Repositories.EntrepreneurRepository)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Repositories.Fakes.ShimEntrepreneurRepository.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Repositories.Fakes.ShimEntrepreneurRepository.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Repositories.Fakes.ShimEntrepreneurRepository.Bind(FirstExamenASP.Data.Infrastructure.IRepository{FirstExamenASP.Domain.Entities.Entrepreneur})">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Repositories.Fakes.ShimEntrepreneurRepository.Bind(FirstExamenASP.Data.Repositories.IEntrepreneurRepository)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Repositories.Fakes.ShimEntrepreneurRepository.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Repositories.Fakes.ShimEntrepreneurRepository.ConstructorDatabaseFactory">
+            <summary>Sets the shim of EntrepreneurRepository.EntrepreneurRepository(DatabaseFactory dbFactory)</summary>
+        </member>
+        <member name="T:FirstExamenASP.Data.Repositories.Fakes.ShimEntrepreneurRepository.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="T:FirstExamenASP.Data.Repositories.Fakes.ShimResidenceRepository">
+            <summary>Shim type of FirstExamenASP.Data.Repositories.ResidenceRepository</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Repositories.Fakes.ShimResidenceRepository.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Repositories.Fakes.ShimResidenceRepository.#ctor(FirstExamenASP.Data.Repositories.ResidenceRepository)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Repositories.Fakes.ShimResidenceRepository.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Repositories.Fakes.ShimResidenceRepository.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Repositories.Fakes.ShimResidenceRepository.Bind(FirstExamenASP.Data.Infrastructure.IRepository{FirstExamenASP.Domain.Entities.Residence})">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Repositories.Fakes.ShimResidenceRepository.Bind(FirstExamenASP.Data.Repositories.IResidenceRepository)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Repositories.Fakes.ShimResidenceRepository.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Repositories.Fakes.ShimResidenceRepository.ConstructorDatabaseFactory">
+            <summary>Sets the shim of ResidenceRepository.ResidenceRepository(DatabaseFactory dbFactory)</summary>
+        </member>
+        <member name="T:FirstExamenASP.Data.Repositories.Fakes.ShimResidenceRepository.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="T:FirstExamenASP.Data.Repositories.Fakes.StubDomicileRepository">
+            <summary>Stub type of FirstExamenASP.Data.Repositories.DomicileRepository</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Repositories.Fakes.StubDomicileRepository.#ctor(FirstExamenASP.Data.Infrastructure.DatabaseFactory)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Repositories.Fakes.StubDomicileRepository.Add(FirstExamenASP.Domain.Entities.Domicile)">
+            <summary>Sets the stub of RepositoryBase`1.Add(!0 entity)</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Repositories.Fakes.StubDomicileRepository.AddDomicile">
+            <summary>Sets the stub of RepositoryBase`1.Add(!0 entity)</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Repositories.Fakes.StubDomicileRepository.Delete(FirstExamenASP.Domain.Entities.Domicile)">
+            <summary>Sets the stub of RepositoryBase`1.Delete(!0 entity)</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Repositories.Fakes.StubDomicileRepository.Delete(System.Linq.Expressions.Expression{System.Func{FirstExamenASP.Domain.Entities.Domicile,System.Boolean}})">
+            <summary>Sets the stub of RepositoryBase`1.Delete(Expression`1&lt;Func`2&lt;!0,Boolean&gt;&gt; where)</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Repositories.Fakes.StubDomicileRepository.DeleteDomicile">
+            <summary>Sets the stub of RepositoryBase`1.Delete(!0 entity)</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Repositories.Fakes.StubDomicileRepository.DeleteExpressionOfFuncOfDomicileBoolean">
+            <summary>Sets the stub of RepositoryBase`1.Delete(Expression`1&lt;Func`2&lt;!0,Boolean&gt;&gt; where)</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Repositories.Fakes.StubDomicileRepository.GetAll">
+            <summary>Sets the stub of RepositoryBase`1.GetAll()</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Repositories.Fakes.StubDomicileRepository.GetAll01">
+            <summary>Sets the stub of RepositoryBase`1.GetAll()</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Repositories.Fakes.StubDomicileRepository.GetById(System.Int64)">
+            <summary>Sets the stub of RepositoryBase`1.GetById(Int64 id)</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Repositories.Fakes.StubDomicileRepository.GetById(System.String)">
+            <summary>Sets the stub of RepositoryBase`1.GetById(String id)</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Repositories.Fakes.StubDomicileRepository.GetByIdInt64">
+            <summary>Sets the stub of RepositoryBase`1.GetById(Int64 id)</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Repositories.Fakes.StubDomicileRepository.GetByIdString">
+            <summary>Sets the stub of RepositoryBase`1.GetById(String id)</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Repositories.Fakes.StubDomicileRepository.GetMany(System.Linq.Expressions.Expression{System.Func{FirstExamenASP.Domain.Entities.Domicile,System.Boolean}})">
+            <summary>Sets the stub of RepositoryBase`1.GetMany(Expression`1&lt;Func`2&lt;!0,Boolean&gt;&gt; where)</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Repositories.Fakes.StubDomicileRepository.GetManyExpressionOfFuncOfDomicileBoolean">
+            <summary>Sets the stub of RepositoryBase`1.GetMany(Expression`1&lt;Func`2&lt;!0,Boolean&gt;&gt; where)</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Repositories.Fakes.StubDomicileRepository.InitializeStub">
+            <summary>Initializes a new instance of type StubDomicileRepository</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Repositories.Fakes.StubDomicileRepository.Update(FirstExamenASP.Domain.Entities.Domicile)">
+            <summary>Sets the stub of RepositoryBase`1.Update(!0 entity)</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Repositories.Fakes.StubDomicileRepository.UpdateDomicile">
+            <summary>Sets the stub of RepositoryBase`1.Update(!0 entity)</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Repositories.Fakes.StubDomicileRepository.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Repositories.Fakes.StubDomicileRepository.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Repositories.Fakes.StubDomicileRepository.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:FirstExamenASP.Data.Repositories.Fakes.StubEntrepreneurRepository">
+            <summary>Stub type of FirstExamenASP.Data.Repositories.EntrepreneurRepository</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Repositories.Fakes.StubEntrepreneurRepository.#ctor(FirstExamenASP.Data.Infrastructure.DatabaseFactory)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Repositories.Fakes.StubEntrepreneurRepository.Add(FirstExamenASP.Domain.Entities.Entrepreneur)">
+            <summary>Sets the stub of RepositoryBase`1.Add(!0 entity)</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Repositories.Fakes.StubEntrepreneurRepository.AddEntrepreneur">
+            <summary>Sets the stub of RepositoryBase`1.Add(!0 entity)</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Repositories.Fakes.StubEntrepreneurRepository.Delete(FirstExamenASP.Domain.Entities.Entrepreneur)">
+            <summary>Sets the stub of RepositoryBase`1.Delete(!0 entity)</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Repositories.Fakes.StubEntrepreneurRepository.Delete(System.Linq.Expressions.Expression{System.Func{FirstExamenASP.Domain.Entities.Entrepreneur,System.Boolean}})">
+            <summary>Sets the stub of RepositoryBase`1.Delete(Expression`1&lt;Func`2&lt;!0,Boolean&gt;&gt; where)</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Repositories.Fakes.StubEntrepreneurRepository.DeleteEntrepreneur">
+            <summary>Sets the stub of RepositoryBase`1.Delete(!0 entity)</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Repositories.Fakes.StubEntrepreneurRepository.DeleteExpressionOfFuncOfEntrepreneurBoolean">
+            <summary>Sets the stub of RepositoryBase`1.Delete(Expression`1&lt;Func`2&lt;!0,Boolean&gt;&gt; where)</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Repositories.Fakes.StubEntrepreneurRepository.GetAll">
+            <summary>Sets the stub of RepositoryBase`1.GetAll()</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Repositories.Fakes.StubEntrepreneurRepository.GetAll01">
+            <summary>Sets the stub of RepositoryBase`1.GetAll()</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Repositories.Fakes.StubEntrepreneurRepository.GetById(System.Int64)">
+            <summary>Sets the stub of RepositoryBase`1.GetById(Int64 id)</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Repositories.Fakes.StubEntrepreneurRepository.GetById(System.String)">
+            <summary>Sets the stub of RepositoryBase`1.GetById(String id)</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Repositories.Fakes.StubEntrepreneurRepository.GetByIdInt64">
+            <summary>Sets the stub of RepositoryBase`1.GetById(Int64 id)</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Repositories.Fakes.StubEntrepreneurRepository.GetByIdString">
+            <summary>Sets the stub of RepositoryBase`1.GetById(String id)</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Repositories.Fakes.StubEntrepreneurRepository.GetMany(System.Linq.Expressions.Expression{System.Func{FirstExamenASP.Domain.Entities.Entrepreneur,System.Boolean}})">
+            <summary>Sets the stub of RepositoryBase`1.GetMany(Expression`1&lt;Func`2&lt;!0,Boolean&gt;&gt; where)</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Repositories.Fakes.StubEntrepreneurRepository.GetManyExpressionOfFuncOfEntrepreneurBoolean">
+            <summary>Sets the stub of RepositoryBase`1.GetMany(Expression`1&lt;Func`2&lt;!0,Boolean&gt;&gt; where)</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Repositories.Fakes.StubEntrepreneurRepository.InitializeStub">
+            <summary>Initializes a new instance of type StubEntrepreneurRepository</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Repositories.Fakes.StubEntrepreneurRepository.Update(FirstExamenASP.Domain.Entities.Entrepreneur)">
+            <summary>Sets the stub of RepositoryBase`1.Update(!0 entity)</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Repositories.Fakes.StubEntrepreneurRepository.UpdateEntrepreneur">
+            <summary>Sets the stub of RepositoryBase`1.Update(!0 entity)</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Repositories.Fakes.StubEntrepreneurRepository.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Repositories.Fakes.StubEntrepreneurRepository.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Repositories.Fakes.StubEntrepreneurRepository.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:FirstExamenASP.Data.Repositories.Fakes.StubIDomicileRepository">
+            <summary>Stub type of FirstExamenASP.Data.Repositories.IDomicileRepository</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Repositories.Fakes.StubIDomicileRepository.#ctor">
+            <summary>Initializes a new instance of type StubIDomicileRepository</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Repositories.Fakes.StubIDomicileRepository.AddDomicile">
+            <summary>Sets the stub of IRepository`1.Add(!0 entity)</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Repositories.Fakes.StubIDomicileRepository.DeleteDomicile">
+            <summary>Sets the stub of IRepository`1.Delete(!0 entity)</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Repositories.Fakes.StubIDomicileRepository.DeleteExpressionOfFuncOfDomicileBoolean">
+            <summary>Sets the stub of IRepository`1.Delete(Expression`1&lt;Func`2&lt;!0,Boolean&gt;&gt; where)</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Repositories.Fakes.StubIDomicileRepository.feaspd::FirstExamenASP#Data#Infrastructure#IRepository{FirstExamenASP#Domain#Entities#Domicile}#Add(FirstExamenASP.Domain.Entities.Domicile)">
+            <summary>Sets the stub of IRepository`1.Add(!0 entity)</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Repositories.Fakes.StubIDomicileRepository.feaspd::FirstExamenASP#Data#Infrastructure#IRepository{FirstExamenASP#Domain#Entities#Domicile}#Delete(FirstExamenASP.Domain.Entities.Domicile)">
+            <summary>Sets the stub of IRepository`1.Delete(!0 entity)</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Repositories.Fakes.StubIDomicileRepository.feaspd::FirstExamenASP#Data#Infrastructure#IRepository{FirstExamenASP#Domain#Entities#Domicile}#Delete(System.Linq.Expressions.Expression{System.Func{FirstExamenASP.Domain.Entities.Domicile,System.Boolean}})">
+            <summary>Sets the stub of IRepository`1.Delete(Expression`1&lt;Func`2&lt;!0,Boolean&gt;&gt; where)</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Repositories.Fakes.StubIDomicileRepository.feaspd::FirstExamenASP#Data#Infrastructure#IRepository{FirstExamenASP#Domain#Entities#Domicile}#Get(System.Linq.Expressions.Expression{System.Func{FirstExamenASP.Domain.Entities.Domicile,System.Boolean}})">
+            <summary>Sets the stub of IRepository`1.Get(Expression`1&lt;Func`2&lt;!0,Boolean&gt;&gt; where)</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Repositories.Fakes.StubIDomicileRepository.feaspd::FirstExamenASP#Data#Infrastructure#IRepository{FirstExamenASP#Domain#Entities#Domicile}#GetAll">
+            <summary>Sets the stub of IRepository`1.GetAll()</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Repositories.Fakes.StubIDomicileRepository.feaspd::FirstExamenASP#Data#Infrastructure#IRepository{FirstExamenASP#Domain#Entities#Domicile}#GetById(System.String)">
+            <summary>Sets the stub of IRepository`1.GetById(String Id)</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Repositories.Fakes.StubIDomicileRepository.feaspd::FirstExamenASP#Data#Infrastructure#IRepository{FirstExamenASP#Domain#Entities#Domicile}#GetById(System.Int64)">
+            <summary>Sets the stub of IRepository`1.GetById(Int64 Id)</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Repositories.Fakes.StubIDomicileRepository.feaspd::FirstExamenASP#Data#Infrastructure#IRepository{FirstExamenASP#Domain#Entities#Domicile}#GetMany(System.Linq.Expressions.Expression{System.Func{FirstExamenASP.Domain.Entities.Domicile,System.Boolean}})">
+            <summary>Sets the stub of IRepository`1.GetMany(Expression`1&lt;Func`2&lt;!0,Boolean&gt;&gt; where)</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Repositories.Fakes.StubIDomicileRepository.feaspd::FirstExamenASP#Data#Infrastructure#IRepository{FirstExamenASP#Domain#Entities#Domicile}#Update(FirstExamenASP.Domain.Entities.Domicile)">
+            <summary>Sets the stub of IRepository`1.Update(!0 entity)</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Repositories.Fakes.StubIDomicileRepository.GetAll">
+            <summary>Sets the stub of IRepository`1.GetAll()</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Repositories.Fakes.StubIDomicileRepository.GetByIdInt64">
+            <summary>Sets the stub of IRepository`1.GetById(Int64 Id)</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Repositories.Fakes.StubIDomicileRepository.GetByIdString">
+            <summary>Sets the stub of IRepository`1.GetById(String Id)</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Repositories.Fakes.StubIDomicileRepository.GetExpressionOfFuncOfDomicileBoolean">
+            <summary>Sets the stub of IRepository`1.Get(Expression`1&lt;Func`2&lt;!0,Boolean&gt;&gt; where)</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Repositories.Fakes.StubIDomicileRepository.GetManyExpressionOfFuncOfDomicileBoolean">
+            <summary>Sets the stub of IRepository`1.GetMany(Expression`1&lt;Func`2&lt;!0,Boolean&gt;&gt; where)</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Repositories.Fakes.StubIDomicileRepository.UpdateDomicile">
+            <summary>Sets the stub of IRepository`1.Update(!0 entity)</summary>
+        </member>
+        <member name="T:FirstExamenASP.Data.Repositories.Fakes.StubIEntrepreneurRepository">
+            <summary>Stub type of FirstExamenASP.Data.Repositories.IEntrepreneurRepository</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Repositories.Fakes.StubIEntrepreneurRepository.#ctor">
+            <summary>Initializes a new instance of type StubIEntrepreneurRepository</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Repositories.Fakes.StubIEntrepreneurRepository.AddEntrepreneur">
+            <summary>Sets the stub of IRepository`1.Add(!0 entity)</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Repositories.Fakes.StubIEntrepreneurRepository.DeleteEntrepreneur">
+            <summary>Sets the stub of IRepository`1.Delete(!0 entity)</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Repositories.Fakes.StubIEntrepreneurRepository.DeleteExpressionOfFuncOfEntrepreneurBoolean">
+            <summary>Sets the stub of IRepository`1.Delete(Expression`1&lt;Func`2&lt;!0,Boolean&gt;&gt; where)</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Repositories.Fakes.StubIEntrepreneurRepository.feaspd::FirstExamenASP#Data#Infrastructure#IRepository{FirstExamenASP#Domain#Entities#Entrepreneur}#Add(FirstExamenASP.Domain.Entities.Entrepreneur)">
+            <summary>Sets the stub of IRepository`1.Add(!0 entity)</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Repositories.Fakes.StubIEntrepreneurRepository.feaspd::FirstExamenASP#Data#Infrastructure#IRepository{FirstExamenASP#Domain#Entities#Entrepreneur}#Delete(FirstExamenASP.Domain.Entities.Entrepreneur)">
+            <summary>Sets the stub of IRepository`1.Delete(!0 entity)</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Repositories.Fakes.StubIEntrepreneurRepository.feaspd::FirstExamenASP#Data#Infrastructure#IRepository{FirstExamenASP#Domain#Entities#Entrepreneur}#Delete(System.Linq.Expressions.Expression{System.Func{FirstExamenASP.Domain.Entities.Entrepreneur,System.Boolean}})">
+            <summary>Sets the stub of IRepository`1.Delete(Expression`1&lt;Func`2&lt;!0,Boolean&gt;&gt; where)</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Repositories.Fakes.StubIEntrepreneurRepository.feaspd::FirstExamenASP#Data#Infrastructure#IRepository{FirstExamenASP#Domain#Entities#Entrepreneur}#Get(System.Linq.Expressions.Expression{System.Func{FirstExamenASP.Domain.Entities.Entrepreneur,System.Boolean}})">
+            <summary>Sets the stub of IRepository`1.Get(Expression`1&lt;Func`2&lt;!0,Boolean&gt;&gt; where)</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Repositories.Fakes.StubIEntrepreneurRepository.feaspd::FirstExamenASP#Data#Infrastructure#IRepository{FirstExamenASP#Domain#Entities#Entrepreneur}#GetAll">
+            <summary>Sets the stub of IRepository`1.GetAll()</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Repositories.Fakes.StubIEntrepreneurRepository.feaspd::FirstExamenASP#Data#Infrastructure#IRepository{FirstExamenASP#Domain#Entities#Entrepreneur}#GetById(System.String)">
+            <summary>Sets the stub of IRepository`1.GetById(String Id)</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Repositories.Fakes.StubIEntrepreneurRepository.feaspd::FirstExamenASP#Data#Infrastructure#IRepository{FirstExamenASP#Domain#Entities#Entrepreneur}#GetById(System.Int64)">
+            <summary>Sets the stub of IRepository`1.GetById(Int64 Id)</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Repositories.Fakes.StubIEntrepreneurRepository.feaspd::FirstExamenASP#Data#Infrastructure#IRepository{FirstExamenASP#Domain#Entities#Entrepreneur}#GetMany(System.Linq.Expressions.Expression{System.Func{FirstExamenASP.Domain.Entities.Entrepreneur,System.Boolean}})">
+            <summary>Sets the stub of IRepository`1.GetMany(Expression`1&lt;Func`2&lt;!0,Boolean&gt;&gt; where)</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Repositories.Fakes.StubIEntrepreneurRepository.feaspd::FirstExamenASP#Data#Infrastructure#IRepository{FirstExamenASP#Domain#Entities#Entrepreneur}#Update(FirstExamenASP.Domain.Entities.Entrepreneur)">
+            <summary>Sets the stub of IRepository`1.Update(!0 entity)</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Repositories.Fakes.StubIEntrepreneurRepository.GetAll">
+            <summary>Sets the stub of IRepository`1.GetAll()</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Repositories.Fakes.StubIEntrepreneurRepository.GetByIdInt64">
+            <summary>Sets the stub of IRepository`1.GetById(Int64 Id)</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Repositories.Fakes.StubIEntrepreneurRepository.GetByIdString">
+            <summary>Sets the stub of IRepository`1.GetById(String Id)</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Repositories.Fakes.StubIEntrepreneurRepository.GetExpressionOfFuncOfEntrepreneurBoolean">
+            <summary>Sets the stub of IRepository`1.Get(Expression`1&lt;Func`2&lt;!0,Boolean&gt;&gt; where)</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Repositories.Fakes.StubIEntrepreneurRepository.GetManyExpressionOfFuncOfEntrepreneurBoolean">
+            <summary>Sets the stub of IRepository`1.GetMany(Expression`1&lt;Func`2&lt;!0,Boolean&gt;&gt; where)</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Repositories.Fakes.StubIEntrepreneurRepository.UpdateEntrepreneur">
+            <summary>Sets the stub of IRepository`1.Update(!0 entity)</summary>
+        </member>
+        <member name="T:FirstExamenASP.Data.Repositories.Fakes.StubIResidenceRepository">
+            <summary>Stub type of FirstExamenASP.Data.Repositories.IResidenceRepository</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Repositories.Fakes.StubIResidenceRepository.#ctor">
+            <summary>Initializes a new instance of type StubIResidenceRepository</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Repositories.Fakes.StubIResidenceRepository.AddResidence">
+            <summary>Sets the stub of IRepository`1.Add(!0 entity)</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Repositories.Fakes.StubIResidenceRepository.DeleteExpressionOfFuncOfResidenceBoolean">
+            <summary>Sets the stub of IRepository`1.Delete(Expression`1&lt;Func`2&lt;!0,Boolean&gt;&gt; where)</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Repositories.Fakes.StubIResidenceRepository.DeleteResidence">
+            <summary>Sets the stub of IRepository`1.Delete(!0 entity)</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Repositories.Fakes.StubIResidenceRepository.feaspd::FirstExamenASP#Data#Infrastructure#IRepository{FirstExamenASP#Domain#Entities#Residence}#Add(FirstExamenASP.Domain.Entities.Residence)">
+            <summary>Sets the stub of IRepository`1.Add(!0 entity)</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Repositories.Fakes.StubIResidenceRepository.feaspd::FirstExamenASP#Data#Infrastructure#IRepository{FirstExamenASP#Domain#Entities#Residence}#Delete(FirstExamenASP.Domain.Entities.Residence)">
+            <summary>Sets the stub of IRepository`1.Delete(!0 entity)</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Repositories.Fakes.StubIResidenceRepository.feaspd::FirstExamenASP#Data#Infrastructure#IRepository{FirstExamenASP#Domain#Entities#Residence}#Delete(System.Linq.Expressions.Expression{System.Func{FirstExamenASP.Domain.Entities.Residence,System.Boolean}})">
+            <summary>Sets the stub of IRepository`1.Delete(Expression`1&lt;Func`2&lt;!0,Boolean&gt;&gt; where)</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Repositories.Fakes.StubIResidenceRepository.feaspd::FirstExamenASP#Data#Infrastructure#IRepository{FirstExamenASP#Domain#Entities#Residence}#Get(System.Linq.Expressions.Expression{System.Func{FirstExamenASP.Domain.Entities.Residence,System.Boolean}})">
+            <summary>Sets the stub of IRepository`1.Get(Expression`1&lt;Func`2&lt;!0,Boolean&gt;&gt; where)</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Repositories.Fakes.StubIResidenceRepository.feaspd::FirstExamenASP#Data#Infrastructure#IRepository{FirstExamenASP#Domain#Entities#Residence}#GetAll">
+            <summary>Sets the stub of IRepository`1.GetAll()</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Repositories.Fakes.StubIResidenceRepository.feaspd::FirstExamenASP#Data#Infrastructure#IRepository{FirstExamenASP#Domain#Entities#Residence}#GetById(System.String)">
+            <summary>Sets the stub of IRepository`1.GetById(String Id)</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Repositories.Fakes.StubIResidenceRepository.feaspd::FirstExamenASP#Data#Infrastructure#IRepository{FirstExamenASP#Domain#Entities#Residence}#GetById(System.Int64)">
+            <summary>Sets the stub of IRepository`1.GetById(Int64 Id)</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Repositories.Fakes.StubIResidenceRepository.feaspd::FirstExamenASP#Data#Infrastructure#IRepository{FirstExamenASP#Domain#Entities#Residence}#GetMany(System.Linq.Expressions.Expression{System.Func{FirstExamenASP.Domain.Entities.Residence,System.Boolean}})">
+            <summary>Sets the stub of IRepository`1.GetMany(Expression`1&lt;Func`2&lt;!0,Boolean&gt;&gt; where)</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Repositories.Fakes.StubIResidenceRepository.feaspd::FirstExamenASP#Data#Infrastructure#IRepository{FirstExamenASP#Domain#Entities#Residence}#Update(FirstExamenASP.Domain.Entities.Residence)">
+            <summary>Sets the stub of IRepository`1.Update(!0 entity)</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Repositories.Fakes.StubIResidenceRepository.GetAll">
+            <summary>Sets the stub of IRepository`1.GetAll()</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Repositories.Fakes.StubIResidenceRepository.GetByIdInt64">
+            <summary>Sets the stub of IRepository`1.GetById(Int64 Id)</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Repositories.Fakes.StubIResidenceRepository.GetByIdString">
+            <summary>Sets the stub of IRepository`1.GetById(String Id)</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Repositories.Fakes.StubIResidenceRepository.GetExpressionOfFuncOfResidenceBoolean">
+            <summary>Sets the stub of IRepository`1.Get(Expression`1&lt;Func`2&lt;!0,Boolean&gt;&gt; where)</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Repositories.Fakes.StubIResidenceRepository.GetManyExpressionOfFuncOfResidenceBoolean">
+            <summary>Sets the stub of IRepository`1.GetMany(Expression`1&lt;Func`2&lt;!0,Boolean&gt;&gt; where)</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Repositories.Fakes.StubIResidenceRepository.UpdateResidence">
+            <summary>Sets the stub of IRepository`1.Update(!0 entity)</summary>
+        </member>
+        <member name="T:FirstExamenASP.Data.Repositories.Fakes.StubResidenceRepository">
+            <summary>Stub type of FirstExamenASP.Data.Repositories.ResidenceRepository</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Repositories.Fakes.StubResidenceRepository.#ctor(FirstExamenASP.Data.Infrastructure.DatabaseFactory)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Repositories.Fakes.StubResidenceRepository.Add(FirstExamenASP.Domain.Entities.Residence)">
+            <summary>Sets the stub of RepositoryBase`1.Add(!0 entity)</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Repositories.Fakes.StubResidenceRepository.AddResidence">
+            <summary>Sets the stub of RepositoryBase`1.Add(!0 entity)</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Repositories.Fakes.StubResidenceRepository.Delete(FirstExamenASP.Domain.Entities.Residence)">
+            <summary>Sets the stub of RepositoryBase`1.Delete(!0 entity)</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Repositories.Fakes.StubResidenceRepository.Delete(System.Linq.Expressions.Expression{System.Func{FirstExamenASP.Domain.Entities.Residence,System.Boolean}})">
+            <summary>Sets the stub of RepositoryBase`1.Delete(Expression`1&lt;Func`2&lt;!0,Boolean&gt;&gt; where)</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Repositories.Fakes.StubResidenceRepository.DeleteExpressionOfFuncOfResidenceBoolean">
+            <summary>Sets the stub of RepositoryBase`1.Delete(Expression`1&lt;Func`2&lt;!0,Boolean&gt;&gt; where)</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Repositories.Fakes.StubResidenceRepository.DeleteResidence">
+            <summary>Sets the stub of RepositoryBase`1.Delete(!0 entity)</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Repositories.Fakes.StubResidenceRepository.GetAll">
+            <summary>Sets the stub of RepositoryBase`1.GetAll()</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Repositories.Fakes.StubResidenceRepository.GetAll01">
+            <summary>Sets the stub of RepositoryBase`1.GetAll()</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Repositories.Fakes.StubResidenceRepository.GetById(System.Int64)">
+            <summary>Sets the stub of RepositoryBase`1.GetById(Int64 id)</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Repositories.Fakes.StubResidenceRepository.GetById(System.String)">
+            <summary>Sets the stub of RepositoryBase`1.GetById(String id)</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Repositories.Fakes.StubResidenceRepository.GetByIdInt64">
+            <summary>Sets the stub of RepositoryBase`1.GetById(Int64 id)</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Repositories.Fakes.StubResidenceRepository.GetByIdString">
+            <summary>Sets the stub of RepositoryBase`1.GetById(String id)</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Repositories.Fakes.StubResidenceRepository.GetMany(System.Linq.Expressions.Expression{System.Func{FirstExamenASP.Domain.Entities.Residence,System.Boolean}})">
+            <summary>Sets the stub of RepositoryBase`1.GetMany(Expression`1&lt;Func`2&lt;!0,Boolean&gt;&gt; where)</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Repositories.Fakes.StubResidenceRepository.GetManyExpressionOfFuncOfResidenceBoolean">
+            <summary>Sets the stub of RepositoryBase`1.GetMany(Expression`1&lt;Func`2&lt;!0,Boolean&gt;&gt; where)</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Repositories.Fakes.StubResidenceRepository.InitializeStub">
+            <summary>Initializes a new instance of type StubResidenceRepository</summary>
+        </member>
+        <member name="M:FirstExamenASP.Data.Repositories.Fakes.StubResidenceRepository.Update(FirstExamenASP.Domain.Entities.Residence)">
+            <summary>Sets the stub of RepositoryBase`1.Update(!0 entity)</summary>
+        </member>
+        <member name="F:FirstExamenASP.Data.Repositories.Fakes.StubResidenceRepository.UpdateResidence">
+            <summary>Sets the stub of RepositoryBase`1.Update(!0 entity)</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Repositories.Fakes.StubResidenceRepository.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Repositories.Fakes.StubResidenceRepository.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:FirstExamenASP.Data.Repositories.Fakes.StubResidenceRepository.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+    </members>
+</doc>

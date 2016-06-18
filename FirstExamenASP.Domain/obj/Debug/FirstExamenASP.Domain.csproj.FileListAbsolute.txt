@@ -1,0 +1,4 @@
+C:\Users\Nizar\Documents\Visual Studio 2013\Projects\FirstExamenASP\FirstExamenASP.Domain\bin\Debug\FirstExamenASP.Domain.dll
+C:\Users\Nizar\Documents\Visual Studio 2013\Projects\FirstExamenASP\FirstExamenASP.Domain\bin\Debug\FirstExamenASP.Domain.pdb
+C:\Users\Nizar\Documents\Visual Studio 2013\Projects\FirstExamenASP\FirstExamenASP.Domain\obj\Debug\FirstExamenASP.Domain.dll
+C:\Users\Nizar\Documents\Visual Studio 2013\Projects\FirstExamenASP\FirstExamenASP.Domain\obj\Debug\FirstExamenASP.Domain.pdb

@@ -1,0 +1,155 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FirstExamenASP.Service.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:FirstExamenASP.Service.Fakes.ShimMyService">
+            <summary>Shim type of FirstExamenASP.Service.MyService</summary>
+        </member>
+        <member name="M:FirstExamenASP.Service.Fakes.ShimMyService.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:FirstExamenASP.Service.Fakes.ShimMyService.#ctor(FirstExamenASP.Service.MyService)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:FirstExamenASP.Service.Fakes.ShimMyService.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FirstExamenASP.Service.Fakes.ShimMyService.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FirstExamenASP.Service.Fakes.ShimMyService.Bind(FirstExamenASP.Service.IMyService)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:FirstExamenASP.Service.Fakes.ShimMyService.AddEntrepreneurEntrepreneur">
+            <summary>Sets the shim of MyService.AddEntrepreneur(Entrepreneur entrepreneur)</summary>
+        </member>
+        <member name="P:FirstExamenASP.Service.Fakes.ShimMyService.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FirstExamenASP.Service.Fakes.ShimMyService.Constructor">
+            <summary>Sets the shim of MyService.MyService()</summary>
+        </member>
+        <member name="P:FirstExamenASP.Service.Fakes.ShimMyService.GetDomiciles">
+            <summary>Sets the shim of MyService.GetDomiciles()</summary>
+        </member>
+        <member name="P:FirstExamenASP.Service.Fakes.ShimMyService.GetEntrepreneurs">
+            <summary>Sets the shim of MyService.GetEntrepreneurs()</summary>
+        </member>
+        <member name="P:FirstExamenASP.Service.Fakes.ShimMyService.GetFirstLettersStringString">
+            <summary>Sets the shim of MyService.GetFirstLetters(String nom, String prenom)</summary>
+        </member>
+        <member name="T:FirstExamenASP.Service.Fakes.ShimMyService.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:FirstExamenASP.Service.Fakes.ShimMyService.AllInstances.AddEntrepreneurEntrepreneur">
+            <summary>Sets the shim of MyService.AddEntrepreneur(Entrepreneur entrepreneur)</summary>
+        </member>
+        <member name="P:FirstExamenASP.Service.Fakes.ShimMyService.AllInstances.GetDomiciles">
+            <summary>Sets the shim of MyService.GetDomiciles()</summary>
+        </member>
+        <member name="P:FirstExamenASP.Service.Fakes.ShimMyService.AllInstances.GetEntrepreneurs">
+            <summary>Sets the shim of MyService.GetEntrepreneurs()</summary>
+        </member>
+        <member name="P:FirstExamenASP.Service.Fakes.ShimMyService.AllInstances.GetFirstLettersStringString">
+            <summary>Sets the shim of MyService.GetFirstLetters(String nom, String prenom)</summary>
+        </member>
+        <member name="T:FirstExamenASP.Service.Fakes.ShimServiceToTest">
+            <summary>Shim type of FirstExamenASP.Service.ServiceToTest</summary>
+        </member>
+        <member name="M:FirstExamenASP.Service.Fakes.ShimServiceToTest.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:FirstExamenASP.Service.Fakes.ShimServiceToTest.#ctor(FirstExamenASP.Service.ServiceToTest)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:FirstExamenASP.Service.Fakes.ShimServiceToTest.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FirstExamenASP.Service.Fakes.ShimServiceToTest.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FirstExamenASP.Service.Fakes.ShimServiceToTest.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FirstExamenASP.Service.Fakes.ShimServiceToTest.Constructor">
+            <summary>Sets the shim of ServiceToTest.ServiceToTest()</summary>
+        </member>
+        <member name="P:FirstExamenASP.Service.Fakes.ShimServiceToTest.GetDomicilesByPriceNullableOfDouble">
+            <summary>Sets the shim of ServiceToTest.GetDomicilesByPrice(Nullable`1&lt;Double&gt; Prix)</summary>
+        </member>
+        <member name="T:FirstExamenASP.Service.Fakes.ShimServiceToTest.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:FirstExamenASP.Service.Fakes.ShimServiceToTest.AllInstances.GetDomicilesByPriceNullableOfDouble">
+            <summary>Sets the shim of ServiceToTest.GetDomicilesByPrice(Nullable`1&lt;Double&gt; Prix)</summary>
+        </member>
+        <member name="T:FirstExamenASP.Service.Fakes.StubIMyService">
+            <summary>Stub type of FirstExamenASP.Service.IMyService</summary>
+        </member>
+        <member name="M:FirstExamenASP.Service.Fakes.StubIMyService.#ctor">
+            <summary>Initializes a new instance of type StubIMyService</summary>
+        </member>
+        <member name="F:FirstExamenASP.Service.Fakes.StubIMyService.AddEntrepreneurEntrepreneur">
+            <summary>Sets the stub of IMyService.AddEntrepreneur(Entrepreneur entrepreneur)</summary>
+        </member>
+        <member name="M:FirstExamenASP.Service.Fakes.StubIMyService.feasps::FirstExamenASP#Service#IMyService#AddEntrepreneur(FirstExamenASP.Domain.Entities.Entrepreneur)">
+            <summary>Sets the stub of IMyService.AddEntrepreneur(Entrepreneur entrepreneur)</summary>
+        </member>
+        <member name="M:FirstExamenASP.Service.Fakes.StubIMyService.feasps::FirstExamenASP#Service#IMyService#GetDomiciles">
+            <summary>Sets the stub of IMyService.GetDomiciles()</summary>
+        </member>
+        <member name="M:FirstExamenASP.Service.Fakes.StubIMyService.feasps::FirstExamenASP#Service#IMyService#GetEntrepreneurs">
+            <summary>Sets the stub of IMyService.GetEntrepreneurs()</summary>
+        </member>
+        <member name="M:FirstExamenASP.Service.Fakes.StubIMyService.feasps::FirstExamenASP#Service#IMyService#GetFirstLetters(System.String,System.String)">
+            <summary>Sets the stub of IMyService.GetFirstLetters(String nom, String prenom)</summary>
+        </member>
+        <member name="F:FirstExamenASP.Service.Fakes.StubIMyService.GetDomiciles">
+            <summary>Sets the stub of IMyService.GetDomiciles()</summary>
+        </member>
+        <member name="F:FirstExamenASP.Service.Fakes.StubIMyService.GetEntrepreneurs">
+            <summary>Sets the stub of IMyService.GetEntrepreneurs()</summary>
+        </member>
+        <member name="F:FirstExamenASP.Service.Fakes.StubIMyService.GetFirstLettersStringString">
+            <summary>Sets the stub of IMyService.GetFirstLetters(String nom, String prenom)</summary>
+        </member>
+        <member name="T:FirstExamenASP.Service.Fakes.StubMyService">
+            <summary>Stub type of FirstExamenASP.Service.MyService</summary>
+        </member>
+        <member name="M:FirstExamenASP.Service.Fakes.StubMyService.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:FirstExamenASP.Service.Fakes.StubMyService.InitializeStub">
+            <summary>Initializes a new instance of type StubMyService</summary>
+        </member>
+        <member name="P:FirstExamenASP.Service.Fakes.StubMyService.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:FirstExamenASP.Service.Fakes.StubMyService.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:FirstExamenASP.Service.Fakes.StubMyService.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:FirstExamenASP.Service.Fakes.StubServiceToTest">
+            <summary>Stub type of FirstExamenASP.Service.ServiceToTest</summary>
+        </member>
+        <member name="M:FirstExamenASP.Service.Fakes.StubServiceToTest.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:FirstExamenASP.Service.Fakes.StubServiceToTest.InitializeStub">
+            <summary>Initializes a new instance of type StubServiceToTest</summary>
+        </member>
+        <member name="P:FirstExamenASP.Service.Fakes.StubServiceToTest.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:FirstExamenASP.Service.Fakes.StubServiceToTest.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:FirstExamenASP.Service.Fakes.StubServiceToTest.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+    </members>
+</doc>
